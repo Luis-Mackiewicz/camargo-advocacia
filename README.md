@@ -1,54 +1,33 @@
-# React + TypeScript + Vite
+# ⚖️ Camargo Advocacia – Website Institucional
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website institucional para o escritório **Camargo Advocacia**, localizado em Janiópolis - PR. Desenvolvido com foco em performance, acessibilidade e um design profissional e responsivo.
 
-Currently, two official plugins are available:
+## 🏛️ Sobre o Escritório
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A **Camargo Advocacia** atua com compromisso e ética na defesa dos interesses de seus clientes, oferecendo um atendimento personalizado e soluções jurídicas eficientes.
 
-## Expanding the ESLint configuration
+📍 Endereço:  
+Rua Tiradentes, Nº 535  
+CEP: 87380-000 – Janiópolis/PR
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🧰 Tecnologias Utilizadas
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **React** – Biblioteca JavaScript para criação de interfaces dinâmicas.
+- **ShadCN UI** – Componentes modernos e acessíveis, baseados em Radix UI e Tailwind.
+- **TailwindCSS** – Framework utilitário para criação de estilos rápidos e responsivos.
+- **Vite** – Ferramenta de build moderna e rápida para projetos front-end.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+## ⚙️ Instalação e Uso
+
+Clone o repositório e siga os passos abaixo:
+
+```bash
+git clone https://github.com/seu-usuario/camargo-advocacia.git
+cd camargo-advocacia
+npm install
+npm run dev
 ```
