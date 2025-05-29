@@ -9,9 +9,6 @@
 }
 
 * {
-  height: 100vh;
-  width: 100vw;
-  background-color: var(--bg);
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -27,9 +24,11 @@
   }
 }
 
+html,
 body {
-  font-family: "lato", sans-serif;
-  font-size: var(--text);
+  height: 100%;
+  width: 100%;
+  background-color: var(--bg);
 }
 
 h1 {
