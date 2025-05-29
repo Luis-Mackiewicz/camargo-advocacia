@@ -12,15 +12,6 @@ CEP: 87380-000 – Janiópolis/PR
 
 ---
 
-## 🧰 Tecnologias Utilizadas
-
-- **React** – Biblioteca JavaScript para criação de interfaces dinâmicas.
-- **ShadCN UI** – Componentes modernos e acessíveis, baseados em Radix UI e Tailwind.
-- **TailwindCSS** – Framework utilitário para criação de estilos rápidos e responsivos.
-- **Vite** – Ferramenta de build moderna e rápida para projetos front-end.
-
----
-
 ## ⚙️ Instalação e Uso
 
 Clone o repositório e siga os passos abaixo:
