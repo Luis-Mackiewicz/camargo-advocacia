@@ -1,7 +1,15 @@
+import Header from "@/components/Header";
+
 export default function Dashboard() {
   return (
     <>
-      <p>Meu primeiro paragrafo</p>
+      <Header />
+      <main>
+        <p>Defendendo seus direitos com excelência e compromisso</p>
+      </main>
+      <aside>
+        <img />
+      </aside>
     </>
   );
 }
