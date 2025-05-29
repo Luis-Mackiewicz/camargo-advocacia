@@ -8,7 +8,7 @@ export default function Header() {
         <Link to="/">início</Link>
         <Link to="/sobre">sobre</Link>
         <Link to="/servicos">serviços</Link>
-        <Link to={"/agendar"}>agendar</Link>
+        <Link to="/agendar">agendar</Link>
         <Link to="/videos">vídeos</Link>
       </nav>
       <a
