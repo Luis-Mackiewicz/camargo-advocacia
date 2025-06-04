@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
 export default function Dashboard() {
@@ -5,11 +6,13 @@ export default function Dashboard() {
     <>
       <Header />
       <main>
-        <p>Defendendo seus direitos com excelência e compromisso</p>
+        <img src="./../../public/slogan-branco.png" alt="Camargo advocacia" />
+        <img src="./../../public/themis.png" alt="Themis" />
       </main>
       <aside>
         <img />
       </aside>
+      <Footer />
     </>
   );
 }
