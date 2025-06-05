@@ -16,7 +16,12 @@ export default function Header() {
       </nav>
       <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
         <button className="whatsapp-button">
-          chame <img src="../icons/whatsapp-header.png" alt="WhatsApp image" />
+          chame{" "}
+          <img
+            id="whatsapp-image"
+            src="../../public/whatsapp-header.png"
+            alt="WhatsApp image"
+          />
         </button>
       </a>
     </header>
