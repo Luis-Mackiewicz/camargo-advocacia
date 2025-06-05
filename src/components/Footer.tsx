@@ -1,3 +1,5 @@
+import "../styles/Footer.css";
+
 export default function Footer() {
   const whatsappLink =
     "https://wa.me/554499912505?text=Oi%21%20Estou%20entrando%20em%20contato%20com%20a%20Camargo%20Advocacia%20para%20falar%20sobre%20um%20assunto%20juridico.%20Poderiamos%20conversar%3F";
@@ -15,7 +17,11 @@ export default function Footer() {
         <ul>
           <li>
             <a href={whatsappLink}>
-              <img src="../icons/whatsapp-footer.png" alt="whatzap" />
+              <img
+                className="footer-images"
+                src="../../public/whatsapp-footer.png"
+                alt="whatzap"
+              />
             </a>
           </li>
         </ul>
