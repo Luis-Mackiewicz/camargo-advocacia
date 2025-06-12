@@ -1,0 +1,24 @@
+@media (min-width: 375px) {
+  * {
+    overflow: hidden;
+    color: white;
+    text-decoration: none;
+  }
+
+  header {
+    width: 100vw;
+    padding: 1rem;
+  }
+
+  .header-navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    justify-content: center;
+    font-size: 18px;
+  }
+
+  .header-list li {
+    font-weight: bold;
+  }
+}

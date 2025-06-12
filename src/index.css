@@ -1,4 +1,10 @@
-html,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "lato", Courier, monospace;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -15,14 +21,6 @@ body {
   --h3-size: 28px;
   --text: 32px;
   --text-small: 16px;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  color: var(--color);
-  font-family: "lato", Courier, monospace;
 }
 
 @media (max-width: 768px) {

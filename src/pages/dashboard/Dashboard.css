@@ -1,0 +1,29 @@
+@media (min-width: 375px) {
+  .logo-camargo-advocacia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.25rem;
+  }
+
+  .logo-camargo-advocacia img {
+    width: 60%;
+  }
+
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-content span {
+    width: 50vw;
+  }
+
+  .main-content span img {
+    width: 50vw;
+  }
+
+  .main-text p {
+    width: 50px;
+  }
+}

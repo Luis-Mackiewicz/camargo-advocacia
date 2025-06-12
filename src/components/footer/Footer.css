@@ -1,0 +1,37 @@
+@media (min-width: 375px) {
+  * {
+    overflow: hidden;
+    color: white;
+    text-decoration: none;
+  }
+
+  address {
+    font-size: 12px;
+  }
+
+  .footer-navigation {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
+
+  .footer-navigation ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  .footer-images {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+}

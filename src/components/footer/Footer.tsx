@@ -6,14 +6,7 @@ export default function Footer() {
 
   return (
     <footer>
-      <address>
-        Endereço: Janiópolis - PR
-        <br />
-        Rua: Tiradentes, N* 535
-        <br />
-        CEP: 87380-000 - Janiópolis/PR
-      </address>
-      <nav className="navigation">
+      <nav className="footer-navigation">
         <ul>
           <li>
             <a href={whatsappLink}>
@@ -54,6 +47,15 @@ export default function Footer() {
           </li>
         </ul>
       </nav>
+      <div className="location">
+        <address>
+          Endereço: Janiópolis - PR
+          <br />
+          Rua: Tiradentes, N* 535
+          <br />
+          CEP: 87380-000 - Janiópolis/PR
+        </address>
+      </div>
     </footer>
   );
 }

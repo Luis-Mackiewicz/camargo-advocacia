@@ -7,26 +7,21 @@ export default function Header() {
 
   return (
     <header>
-      <nav className="navigation">
+      <nav className="header-navigation">
         <ul className="header-list">
           <li>
-            {" "}
             <Link to="/">início</Link>
           </li>
           <li>
-            {" "}
-            <Link to="/sobre">sobre</Link>
+            <Link to="/about">sobre</Link>
           </li>
           <li>
-            {" "}
-            <Link to="/servicos">serviços</Link>
+            <Link to="/services">serviços</Link>
           </li>
           <li>
-            {" "}
-            <Link to="/agendar">agendar</Link>
+            <Link to="/contact-us">agendar</Link>
           </li>
           <li>
-            {" "}
             <Link to="/videos">vídeos</Link>
           </li>
         </ul>
