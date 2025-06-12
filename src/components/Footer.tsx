@@ -13,7 +13,7 @@ export default function Footer() {
         <br />
         CEP: 87380-000 - Janiópolis/PR
       </address>
-      <nav>
+      <nav className="navigation">
         <ul>
           <li>
             <a href={whatsappLink}>
@@ -26,18 +26,30 @@ export default function Footer() {
           </li>
           <li>
             <a href="https://www.instagram.com/camargoadvocacia1?igsh=Z2h0empvemE1M3do">
-              <img src="../../public/instagram.png" alt="instagram" />
+              <img
+                className="footer-images"
+                src="../../public/instagram.png"
+                alt="instagram"
+              />
             </a>
           </li>
           <li>
             <a href="https://www.facebook.com/Camargoadvocacia1/?locale=pt_BR">
-              <img src="../../public/facebook.png" alt="facebook" />
+              <img
+                className="footer-images"
+                src="../../public/facebook.png"
+                alt="facebook"
+              />
             </a>
           </li>
 
           <li>
             <a href="https://www.youtube.com/">
-              <img src="../../public/youtube.png" alt="youtube" />
+              <img
+                className="footer-images"
+                src="../../public/youtube.png"
+                alt="youtube"
+              />
             </a>
           </li>
         </ul>
