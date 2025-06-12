@@ -1,10 +1,19 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
 :root {
   --bg: #060b29;
   --color: white;
   --h1-size: 48px;
   --h2-size: 36px;
   --h3-size: 28px;
-  --text: 20px;
+  --text: 32px;
   --text-small: 16px;
 }
 
