@@ -1,6 +1,6 @@
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
-import "./dashboard/Dashboard.css";
+import "./Dashboard.css"; // Assuming you have a CSS file for styling
 
 export default function Dashboard() {
   return (
