@@ -5,14 +5,20 @@
     text-decoration: none;
   }
 
+  footer {
+    position: fixed;
+    bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+
   address {
     font-size: 12px;
   }
 
   .footer-navigation {
-    display: flex;
     list-style: none;
-    justify-content: center;
   }
 
   .footer-navigation ul {
@@ -34,4 +40,13 @@
     align-items: center;
     margin-top: 1rem;
   }
+}
+
+.footer-list li {
+  padding: 5px;
+}
+
+.footer-images:hover {
+  transform: scale(1.2);
+  transition-delay: 60ms;
 }

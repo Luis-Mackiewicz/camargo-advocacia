@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer>
       <nav className="footer-navigation">
-        <ul>
+        <ul className="footer-list">
           <li>
             <a href={whatsappLink}>
               <img
