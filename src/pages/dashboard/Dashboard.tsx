@@ -1,11 +1,8 @@
-import Footer from "@/components/footer/Footer";
-import Header from "@/components/header/Header";
-import "./Dashboard.css"; // Assuming you have a CSS file for styling
+import "./Dashboard.css";
 
 export default function Dashboard() {
   return (
     <>
-      <Header />
       <div>
         <div className="logo-camargo-advocacia">
           <img src="./../../public/slogan-branco.png" alt="Camargo advocacia" />
@@ -20,8 +17,6 @@ export default function Dashboard() {
           </span>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 }
