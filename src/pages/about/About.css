@@ -1,0 +1,13 @@
+@media (min-width: 375px) {
+  .about-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-container {
+    width: 90%;
+    height: 500px;
+    background-color: #26295b;
+    border-radius: 8px;
+  }
+}

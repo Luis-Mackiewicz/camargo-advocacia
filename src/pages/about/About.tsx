@@ -1,9 +1,11 @@
-import Header from "@/components/header/Header";
+import "./About.css";
 
 export default function About() {
   return (
     <>
-      <Header />
+      <div className="about-background">
+        <div className="about-container"></div>
+      </div>
     </>
   );
 }
