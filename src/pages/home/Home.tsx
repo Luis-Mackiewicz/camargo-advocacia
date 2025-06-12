@@ -1,6 +1,6 @@
-import "./Dashboard.css";
+import "./Home.css";
 
-export default function Dashboard() {
+export default function Home() {
   return (
     <>
       <div>

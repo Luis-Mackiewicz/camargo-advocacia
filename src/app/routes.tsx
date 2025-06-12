@@ -1,4 +1,4 @@
-import Dashboard from "@/pages/dashboard/Dashboard.tsx";
+import Home from "@/pages/home/Home.tsx";
 import type { RouteObject } from "react-router-dom";
 import App from "../App.tsx";
 import About from "../pages/about/About.tsx";
@@ -12,7 +12,7 @@ const routes: RouteObject[] = [
     path: "/",
     element: <App />,
     children: [
-      { path: "/", element: <Dashboard /> },
+      { path: "/", element: <Home /> },
       { path: "about", element: <About /> },
       { path: "services", element: <Service /> },
       { path: "videos", element: <Videos /> },
