@@ -1,11 +1,12 @@
+// components/container/PageContainer.tsx
 import "./Container.css";
 
-const PageContainer = () => {
-  return (
-    <>
-      <div className="about-container"></div>
-    </>
-  );
+interface PageContainerProps {
+  children: React.ReactNode;
+}
+
+const PageContainer = ({ children }: PageContainerProps) => {
+  return <div className="about-container">{children}</div>;
 };
 
 export default PageContainer;
