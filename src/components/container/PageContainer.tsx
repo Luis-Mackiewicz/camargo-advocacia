@@ -1,4 +1,3 @@
-// components/container/PageContainer.tsx
 import "./Container.css";
 
 interface PageContainerProps {
