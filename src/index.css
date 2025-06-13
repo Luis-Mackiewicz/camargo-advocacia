@@ -13,6 +13,16 @@ body {
   overflow: hidden;
 }
 
+.central-content {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
 :root {
   --bg: #060b29;
   --color: white;

@@ -1,13 +1,10 @@
-import Footer from "@/components/footer/Footer";
-import Form from "@/components/form/Form";
-import Header from "@/components/header/Header";
+import "../../components/container/PageContainer";
+import PageContainer from "../../components/container/PageContainer";
 
 export default function ContactUs() {
   return (
     <>
-      <Header />
-      <Form />
-      <Footer />
+      <PageContainer />
     </>
   );
 }

@@ -1,0 +1,7 @@
+.about-container {
+  width: 90vw;
+  height: 70vh;
+  background-color: #26295b;
+  border-radius: 8px;
+  outline: 1px solid black;
+}
