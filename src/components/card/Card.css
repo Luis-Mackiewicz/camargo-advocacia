@@ -1,0 +1,39 @@
+.services-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 300px;
+  margin: 16px auto;
+  overflow: hidden;
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+  background-color: #fff;
+
+  max-height: 200px;
+}
+
+.services-card.expanded {
+  background-color: #f5f5f5;
+  max-height: 500px;
+}
+dl dt {
+  color: black;
+}
+
+dl dd {
+  color: black;
+}
+.services-card dl dd {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.services-card.expanded dl dd {
+  opacity: 1;
+  transform: translateY(0);
+  max-height: 200px;
+}
