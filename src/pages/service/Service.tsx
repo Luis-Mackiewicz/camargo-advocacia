@@ -4,32 +4,32 @@ import Card from "@/components/card/Card";
 
 const cardsData = [
   {
-    image: "./service-images/book.svg",
+    image: "/service-page-images/book.svg",
     title: "Direito previdenciario",
     description: "Descrição do serviço 1.",
   },
   {
-    image: "/images/card2.jpg",
+    image: "/service-page-images/familly.svg",
     title: "Direito da família",
     description: "Descrição do serviço 2.",
   },
   {
-    image: "/images/card3.jpg",
+    image: "/service-page-images/shop.svg",
     title: "Direito do consumidor",
     description: "Descrição do serviço 3.",
   },
   {
-    image: "/images/card4.jpg",
+    image: "/service-page-images/column.svg",
     title: "Direito público",
     description: "Descrição do serviço 4.",
   },
   {
-    image: "/images/card5.jpg",
+    image: "/service-page-images/write.svg",
     title: "Registro de marcas",
     description: "Descrição do serviço 5.",
   },
   {
-    image: "/images/card6.jpg",
+    image: "/service-page-images/handshake.svg",
     title: "Mediação",
     description: "Contatos",
   },
