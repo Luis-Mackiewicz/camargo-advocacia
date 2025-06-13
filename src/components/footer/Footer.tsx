@@ -11,7 +11,7 @@ export default function Footer() {
             <a href={whatsappLink}>
               <img
                 className="footer-images"
-                src="../../public/whatsapp-footer.png"
+                src="/footer-images/whatsapp-footer.png"
                 alt="whatzap"
               />
             </a>
@@ -20,7 +20,7 @@ export default function Footer() {
             <a href="https://www.instagram.com/camargoadvocacia1?igsh=Z2h0empvemE1M3do">
               <img
                 className="footer-images"
-                src="../../public/instagram.png"
+                src="/footer-images/instagram.png"
                 alt="instagram"
               />
             </a>
@@ -29,7 +29,7 @@ export default function Footer() {
             <a href="https://www.facebook.com/Camargoadvocacia1/?locale=pt_BR">
               <img
                 className="footer-images"
-                src="../../public/facebook.png"
+                src="/footer-images/facebook.png"
                 alt="facebook"
               />
             </a>
@@ -39,7 +39,7 @@ export default function Footer() {
             <a href="https://www.youtube.com/">
               <img
                 className="footer-images"
-                src="../../public/youtube.png"
+                src="/footer-images/youtube.png"
                 alt="youtube"
               />
             </a>
