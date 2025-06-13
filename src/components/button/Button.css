@@ -18,3 +18,8 @@
 .whatsapp-button img {
   width: 24px;
 }
+
+.whatsapp-button:hover {
+  width: 130px;
+  transition: all 0.3s ease-in-out;
+}
