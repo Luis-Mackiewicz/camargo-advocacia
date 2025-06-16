@@ -1,4 +1,4 @@
-import Home from "@/pages/home/Home.tsx";
+import Home from "../pages/home/Home.tsx";
 import type { RouteObject } from "react-router-dom";
 import App from "../App.tsx";
 import About from "../pages/about/About.tsx";
