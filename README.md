@@ -20,5 +20,5 @@ Clone o repositório e siga os passos abaixo:
 git clone https://github.com/seu-usuario/camargo-advocacia.git
 cd camargo-advocacia
 npm install
-npm run dev
+npm run camargo
 ```
