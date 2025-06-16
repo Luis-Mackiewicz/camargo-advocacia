@@ -1,13 +1,22 @@
 import "../../components/container/PageContainer";
-import "./About.css";
 import PageContainer from "../../components/container/PageContainer";
-
+import "./About.css";
 export default function About() {
   return (
     <>
-      <div className="about-background">
-        <PageContainer />
-      </div>
+      <PageContainer>
+        <dl className="about-description-list">
+          <dt className="about-description-title">Sobre nós</dt>
+          <dd className="about-description-details">
+            Na Camargo Advocacia , acreditamos que o direito é mais do que uma
+            profissão: é uma ferramenta poderosa para transformar vidas,
+            proteger direitos e promover justiça. Fundada com o compromisso de
+            oferecer soluções jurídicas personalizadas e eficazes, nossa equipe
+            está preparada para atender às mais diversas demandas legais com
+            excelência e transparência.
+          </dd>
+        </dl>
+      </PageContainer>
     </>
   );
 }
