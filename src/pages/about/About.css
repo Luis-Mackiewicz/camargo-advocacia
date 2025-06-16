@@ -1,7 +1,22 @@
-@media (min-width: 375px) {
-  .about-background {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.about-description-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+}
+
+.about-description-title {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+.about-description-details {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
 }
