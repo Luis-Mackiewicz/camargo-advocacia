@@ -1,37 +1,37 @@
 @import url("../../index.css");
 
 #footer {
+  justify-content: center;
   display: flex;
   flex-direction: column;
   position: fixed;
   bottom: 1%;
   width: 100%;
+  height: 16vh;
 }
 
 .footer-line {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   opacity: 20%;
 }
 
 .footer-elements {
+  margin-top: 1.5rem;
   display: flex;
   align-items: center;
-  padding-top: 1%;
-  width: 90%;
-  margin: 0 auto;
   height: 10vh;
-}
-
-.footer-images {
-  width: 2.5rem;
+  margin-left: 10%;
 }
 
 .footer-nav {
   order: 2;
   display: flex;
-  justify-content: center;
-  width: 100%;
+  margin-left: 25%;
+}
+
+.footer-images {
+  width: 2.5rem;
 }
 
 .footer-address {
