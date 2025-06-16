@@ -8,12 +8,7 @@ export default function NotFoundPage() {
   return (
     <PageContainer>
       <div className="notfound-container">
-        <img
-          src="/not-found.svg"
-          alt="sad dog"
-          width={250}
-          className="notfound-img"
-        />
+        <img src="/not-found.svg" alt="sad dog" className="notfound-img" />
         <h1>Opss...</h1>
         <p>
           Essa página não foi encontrada. <br />

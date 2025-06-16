@@ -3,7 +3,7 @@ import PageContainer from "../../components/container/PageContainer";
 import "./Videos.css";
 
 export default function Videos() {
-  const commingSonImage = "../../../public/coming-soon.svg";
+  const commingSonImage = "/coming-soon.svg";
 
   return (
     <>

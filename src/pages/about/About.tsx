@@ -2,7 +2,7 @@ import "../../components/container/PageContainer";
 import PageContainer from "../../components/container/PageContainer";
 import "./About.css";
 export default function About() {
-  const judgeImage = "../../../public/blue-img.jpg";
+  const judgeImage = "/blue-img.jpg";
   return (
     <>
       <PageContainer>
