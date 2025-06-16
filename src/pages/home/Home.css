@@ -1,69 +1,67 @@
-@media (min-width: 375px) {
-  .logo-camargo-advocacia {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1.25rem;
-  }
+.logo-camargo-advocacia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.25rem;
+}
 
-  .main-container {
-    position: static;
-    z-index: 0;
-    background-image: url("/background-images/background-home.svg");
-    height: 100vh;
-    width: 100vw;
-  }
+.main-container {
+  position: static;
+  z-index: 0;
+  height: 100vh;
+  width: 100vw;
+}
 
-  .container-logo-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.container-logo-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .container-logo-image img {
-    margin-top: 16%;
-    width: 70%;
-  }
+.container-logo-image img {
+  position: fixed;
+  top: 100px;
+  left: 50px;
+}
 
-  .main-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .themis-image-box {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 10vh;
-    padding: 10% 10%;
-    align-items: center;
-  }
+.themis-image-box {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10vh;
+  padding: 10% 10%;
+  align-items: center;
+}
 
-  .themis-image-div {
-    background-size: contain;
-    background-image: url("/law.svg");
-    background-repeat: no-repeat;
+.themis-image-div {
+  background-size: contain;
+  background-image: url("/law.svg");
+  background-repeat: no-repeat;
 
-    height: 500px;
-    width: 100px;
-  }
+  height: 500px;
+  width: 100px;
+}
 
-  .text-box {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 10px;
-    margin-top: 20%;
-  }
+.text-box {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  margin-top: 20%;
+}
 
-  .text-box h1 {
-    font-size: 20px;
-    font-weight: bolder;
-    text-align: center;
-  }
+.text-box h1 {
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
 
-  .logo-box img {
-    width: 50px;
-  }
+.logo-box img {
+  width: 50px;
 }

@@ -1,52 +1,42 @@
-@media (min-width: 375px) {
-  * {
-    overflow: hidden;
-    color: white;
-    text-decoration: none;
-  }
+@import url("../../index.css");
 
-  footer {
-    position: fixed;
-    bottom: 1%;
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-  }
-
-  address {
-    font-size: 12px;
-  }
-
-  .footer-navigation {
-    list-style: none;
-  }
-
-  .footer-navigation ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    gap: 16px;
-    justify-content: center;
-  }
-
-  .footer-images {
-    height: 2rem;
-    width: 2rem;
-  }
-
-  .location {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-  }
+#footer {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 1%;
+  width: 100%;
 }
 
-.footer-list li {
-  padding: 5px;
+.footer-line {
+  width: 90%;
+  margin: 0 auto;
+  opacity: 20%;
 }
 
-.footer-images:hover {
-  transform: scale(1.2);
-  transition-delay: 60ms;
+.footer-elements {
+  display: flex;
+  align-items: center;
+  padding-top: 1%;
+}
+
+.footer-images {
+  width: 2.5rem;
+}
+
+.footer-nav {
+  order: 2;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer-addres {
+  order: 1;
+}
+
+.footer-list {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
 }
