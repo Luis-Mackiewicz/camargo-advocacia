@@ -2,9 +2,11 @@ import "../../components/container/PageContainer";
 import PageContainer from "../../components/container/PageContainer";
 import "./About.css";
 export default function About() {
+  const judgeImage = "../../../public/blue-img.jpg";
   return (
     <>
       <PageContainer>
+        <img className="judge-image" src={judgeImage} alt="judge image" />
         <dl className="about-description-list">
           <dt className="about-description-title">Sobre nós</dt>
           <dd className="about-description-details">
