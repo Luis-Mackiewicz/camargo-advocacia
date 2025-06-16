@@ -1,0 +1,28 @@
+.videos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-image {
+  margin-top: 8vh;
+  width: 30%;
+}
+
+.video-text {
+  order: 2;
+  margin-top: 5vh;
+}
+
+.video-text > h1 {
+  align-self: flex-end;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.video-text h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
