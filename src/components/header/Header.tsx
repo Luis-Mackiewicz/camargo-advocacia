@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import "../header/Header.css";
-import "../button/Button";
 import Button from "../button/Button";
 
 export default function Header() {
