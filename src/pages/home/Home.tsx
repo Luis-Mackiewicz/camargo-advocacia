@@ -2,8 +2,8 @@ import "./Home.css";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
-const logoImage = "../../../public/logo.svg";
-const ladyOfJusticeImage = "../../../public/themis.svg";
+const logoImage = "/logo.svg";
+const ladyOfJusticeImage = "/themis.svg";
 
 const Home = () => {
   const navigate = useNavigate();
