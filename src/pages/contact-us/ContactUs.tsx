@@ -23,23 +23,44 @@ export default function ContactUs() {
               type="text"
               placeholder="Nome"
               className="contact-input-form"
+              required
             />
             <input
               type="email"
               placeholder="E-mail"
               className="contact-input-form"
+              required
             />
             <input
               type="password"
               placeholder="Telefone"
               className="contact-input-form"
+              required
             />
-            <input
-              type="tel"
-              placeholder="tipo de caso"
-              className="contact-input-form"
-            />
-            <textarea name="" id="" placeholder="d"></textarea>
+
+            <select className="select-button" name="" id="" required>
+              <option value="civil">Direito civil</option>
+              <option value="penal">Direito penal</option>
+              <option value="trabalhista">Direito Trabalhista</option>
+              <option value="previdenciário">Direito previdenciário</option>
+              <option value="empresarial">Direito Empresarial</option>
+              <option value="familia">Direito da família</option>
+              <option value="consumidor">Direito do consumidor</option>
+              <option value="outro">Outro</option>
+            </select>
+            <textarea
+              name=""
+              id=""
+              placeholder="Descreva o seu caso"
+            ></textarea>
+            <div className="buttons-container">
+              <button type="button" className="button-back">
+                Voltar
+              </button>
+              <button type="submit" className="button-submit">
+                Enviar
+              </button>
+            </div>
           </form>
         </div>
       </PageContainer>
