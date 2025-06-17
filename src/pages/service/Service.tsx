@@ -1,6 +1,6 @@
-// pages/Service.tsx
 import PageContainer from "@/components/container/PageContainer";
 import Card from "@/components/card/Card";
+import "./Service.css";
 
 const cardsData = [
   {

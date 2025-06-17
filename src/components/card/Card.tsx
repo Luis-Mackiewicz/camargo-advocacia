@@ -1,4 +1,3 @@
-import "./Card.css";
 import { useState } from "react";
 
 interface CardProps {
@@ -10,7 +9,7 @@ interface CardProps {
 const Card = ({ image, title, description }: CardProps) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
-  const toggleExpaned = () => {
+  const toggleExpanded = () => {
     setIsExpanded(!isExpanded);
   };
 
@@ -18,9 +17,24 @@ const Card = ({ image, title, description }: CardProps) => {
     <>
       <div
         className={`services-card ${isExpanded ? "expanded" : ""}`}
-        onClick={toggleExpaned}
+        onClick={() => {
+          if (!isExpanded) toggleExpanded();
+        }}
       >
-        <img src={image} />
+        {isExpanded && (
+          <button
+            className="close-button"
+            onClick={(e) => {
+              e.stopPropagation();
+              toggleExpanded();
+            }}
+            aria-label="Fechar"
+          >
+            &times;
+          </button>
+        )}
+
+        <img src={image} alt={title} />
         <dl>
           <dt>{title}</dt>
           {isExpanded && <dd>{description}</dd>}
