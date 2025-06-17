@@ -50,3 +50,54 @@
   padding: 20px;
   cursor: auto;
 }
+
+.buttons-container {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+
+.button-back {
+  border-radius: 100px;
+  color: #26295b;
+  font-size: 1.5rem;
+  height: 4rem;
+  width: 30%;
+  background-color: white;
+}
+
+.button-submit {
+  border: none;
+  border-radius: 100px;
+  background-color: #26295b;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  height: 4rem;
+  width: 70%;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.button-back:hover {
+  cursor: pointer;
+}
+
+.button-submit:hover {
+  cursor: pointer;
+  background-color: #25d366;
+}
+
+.button-submit:active {
+  transform: scale(0.98);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.select-button {
+  background-color: white;
+  color: #26295b;
+}
+
+.select-button option {
+  color: #26295b;
+  text-align: center;
+}
