@@ -34,3 +34,29 @@
 .whatsapp-button:hover img {
   transform: rotate(10deg) scale(1.1);
 }
+
+@media (max-width: 900px) {
+  .whatsapp-button {
+    height: 2rem;
+    width: 7rem;
+    font-size: 1rem;
+  }
+
+  .whatsapp-button img {
+    width: 1em;
+    height: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .whatsapp-button {
+    height: 2rem;
+    width: 7rem;
+    font-size: 1rem;
+  }
+
+  .whatsapp-button img {
+    width: 1em;
+    height: 1rem;
+  }
+}
