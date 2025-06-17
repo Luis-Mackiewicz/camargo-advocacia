@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./Card.css";
 
 interface CardProps {
   image: string;
