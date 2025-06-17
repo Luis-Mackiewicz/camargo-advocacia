@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../header/Header.css";
 import Button from "../button/Button";
 
@@ -8,27 +8,29 @@ export default function Header() {
       <nav className="header-navigation">
         <ul className="header-list">
           <li>
-            <Link to="/">início</Link>
+            <NavLink to="/" className="active-link">
+              início
+            </NavLink>
           </li>
           <li>
-            <Link to="/about" className="active-link">
+            <NavLink to="/about" className="active-link">
               sobre
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/services" className="active-link">
+            <NavLink to="/services" className="active-link">
               serviços
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/contact-us" className="active-link">
+            <NavLink to="/contact-us" className="active-link">
               agendar
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/videos" className="active-link">
+            <NavLink to="/videos" className="active-link">
               vídeos
-            </Link>
+            </NavLink>
           </li>
         </ul>
         <Button />

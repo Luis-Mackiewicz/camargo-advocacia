@@ -29,5 +29,34 @@ header {
 }
 
 .active-link {
-  text-decoration: underline;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.active-link:hover {
+  opacity: 1;
+}
+
+.active-link.active {
+  opacity: 1;
+}
+
+.active-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease-in-out;
+}
+
+.active-link:hover::after,
+.active-link.active::after {
+  width: 100%;
 }
