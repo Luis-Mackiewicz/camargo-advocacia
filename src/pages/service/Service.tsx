@@ -5,33 +5,39 @@ import "./Service.css";
 const cardsData = [
   {
     image: "/service-page-images/book.svg",
-    title: "Direito previdenciario",
-    description: "Descrição do serviço 1.",
+    title: "Direito Previdenciário",
+    description:
+      "Assessoria em benefícios do INSS, aposentadorias, auxílio-doença, BPC/LOAS e revisões de cálculos, garantindo proteção e segurança ao trabalhador e sua família.",
   },
   {
     image: "/service-page-images/familly.svg",
-    title: "Direito da família",
-    description: "Descrição do serviço 2.",
+    title: "Direito da Família",
+    description:
+      "Atuação em divórcios, pensão alimentícia, guarda de filhos, inventários, união estável e outras questões familiares, sempre com sensibilidade e foco na solução pacífica.",
   },
   {
     image: "/service-page-images/shop.svg",
-    title: "Direito do consumidor",
-    description: "Descrição do serviço 3.",
+    title: "Direito do Consumidor",
+    description:
+      "Defesa dos direitos do consumidor em casos de cobranças indevidas, vícios em produtos ou serviços, contratos abusivos e ações contra empresas.",
   },
   {
     image: "/service-page-images/column.svg",
-    title: "Direito público",
-    description: "Descrição do serviço 4.",
+    title: "Direito Público",
+    description:
+      "Atuação em causas envolvendo o poder público, como concursos, licitações, servidor público, improbidade administrativa e ações contra o Estado.",
   },
   {
     image: "/service-page-images/write.svg",
-    title: "Registro de marcas",
-    description: "Descrição do serviço 5.",
+    title: "Registro de Marcas",
+    description:
+      "Auxílio completo no processo de registro de marcas junto ao INPI, incluindo buscas prévias, acompanhamento do processo e defesa contra oposições.",
   },
   {
     image: "/service-page-images/handshake.svg",
     title: "Mediação",
-    description: "Contatos",
+    description:
+      "Resolução de conflitos de forma rápida, eficaz e amigável, sem a necessidade de processo judicial, promovendo acordos vantajosos para ambas as partes.",
   },
 ];
 
