@@ -13,7 +13,7 @@ export default function Videos() {
             <h1>Seção de vídeos em breve!</h1>
             <h2>
               Estamos prearando uma nova seção com videos exclusívos sobre
-              direito
+              direito.
             </h2>
           </div>
 
