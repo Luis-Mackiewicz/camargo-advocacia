@@ -15,7 +15,7 @@ export default function ContactUs() {
               src={camargoLogoImage}
               alt="camargo advocacia"
             />
-            <p>Localização</p>
+            <p>Localização:</p>
             <iframe className="google-map" src={googleMapsLocation} />
           </aside>
           <form action="" className="contact-form">
