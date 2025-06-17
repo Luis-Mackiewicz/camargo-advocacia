@@ -39,7 +39,12 @@ export default function ContactUs() {
           />
         </aside>
 
-        <form className="contact-form" onSubmit={handleSubmit}>
+        <form
+          action={"https://formsubmit.co/andrev.s.camargo@gmail.com"}
+          className="contact-form"
+          onSubmit={handleSubmit}
+          method="POST"
+        >
           <div className="floating-label-wrapper">
             <input
               type="text"
