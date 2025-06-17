@@ -50,3 +50,12 @@
   gap: 1rem;
   list-style: none;
 }
+@media (max-width: 900px) {
+  .footer-elements {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+}
