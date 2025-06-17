@@ -48,13 +48,19 @@
   margin-bottom: 1rem;
 }
 
+.services-card dt {
+  margin-top: 20%;
+  color: #26295b;
+}
+
 .services-card dl dd {
+  margin-top: 2%;
   opacity: 0;
   transform: translateY(-10px);
   transition: opacity 0.3s ease, transform 0.3s ease;
   max-height: 0;
   overflow: hidden;
-  color: black;
+  color: #26295b;
   pointer-events: none;
 }
 
