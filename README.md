@@ -30,9 +30,10 @@ O website da Camargo advocacia utiliza:
 
 
 ## Localização:
-Endereço: Janiópolis - PR
-Rua: Tiradentes, N* 535 <br/>
+<address>Endereço: Janiópolis - PR
+Rua: Tiradentes, N* 535</address>
+ <br/>
 
-[google maps](https://www.google.com/maps?ll=-24.142761,-52.782036&z=17&t=m&hl=pt-BR&gl=BR&mapclient=embed&cid=9412524470453315525)
+[ver no mapa](https://www.google.com/maps?ll=-24.142761,-52.782036&z=17&t=m&hl=pt-BR&gl=BR&mapclient=embed&cid=9412524470453315525)
 
 
