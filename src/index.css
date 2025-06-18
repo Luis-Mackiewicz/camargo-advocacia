@@ -59,7 +59,7 @@ body {
 }
 
 .app-container.bg-service {
-  background-image: url("/background-images/background-service.svg");
+  background-image: url("/background-images/background-services.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
