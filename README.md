@@ -10,7 +10,7 @@
 
 ## Propósito: 
 <p>
-  O site institucional da **Camargo Advocacia** tem como objetivo **facilitar o agendamento de atendimentos jurídicos** e **oferecer informações essenciais aos futuros clientes**. Com uma interface moderna, acessível e responsiva, o projeto visa aproximar o escritório do público de Janiópolis e região, promovendo praticidade, confiança e transparência na comunicação.
+  O site institucional da Camargo Advocacia tem como objetivo <em>facilitar</em>o agendamento de atendimentos jurídicos e oferecer <em>informações essenciais</em> aos futuros clientes. Com uma <em>interface moderna</em>, acessível e responsiva, o projeto visa aproximar o escritório do público de <em>Janiópolis e região</em>, promovendo praticidade, confiança e transparência na comunicação.
 </p>
 
 ---
