@@ -40,7 +40,7 @@ export default function ContactUs() {
         </aside>
 
         <form
-          action={"https://formsubmit.co/andrev.s.camargo@gmail.com"}
+          action={"https://formsubmit.co/andre@camargoadvocacia.com.br"}
           className="contact-form"
           onSubmit={handleSubmit}
           method="POST"
